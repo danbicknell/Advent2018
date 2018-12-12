@@ -7,68 +7,70 @@ class One {
   var foundDuplicate = false
   var duplicate = -100000
   var currentFrequency = 0
+  val foundFrequencies = ArrayBuffer[Int]()
+  var loopCount = 0
 
   def sumSequence: Int = {
 
-    var result : Int = 0
+    var result: Int = 0
 
     import scala.io.Source
-  println("opening file")
+    println("opening file")
     val filename = "C:\\TempWork\\Advent\\Advent1.txt"
     for (line <- Source.fromFile(filename).getLines) {
 
-      if(line != null && !line.isEmpty()) result += (line.replace("+","")).toInt
+      if (line != null && !line.isEmpty()) result += (line.replace("+", "")).toInt
 
     }
 
-  result
+    result
 
   }
 
 
-  def repeatingFrequency : Int = {
+  def repeatingFrequency: Int = {
     val frequencyList = readFrequencyFile
 
-    val calculatedFrequencies = ArrayBuffer[Int]()
 
-    val
-
-    while (!foundDuplicate){
-      checkDups()
+    while (!foundDuplicate) {
+      foundDuplicate = checkDups(frequencyList)
     }
 
-
-
-     -100000
-  }
-
-def readFrequencyFile : Array[Int] = {
-  import scala.io.Source
-  val frequencies = ArrayBuffer[Int]()
-  println("opening file")
-  val filename = "C:\\TempWork\\Advent\\Advent1.txt"
-  for (line <- Source.fromFile(filename).getLines) {
-    if(line != null && !line.isEmpty()) frequencies += (line.replace("+","")).toInt
-  }
-  frequencies
-}
-
-def checkDups(frequencies : Array[Int], foundFrequencies : ArrayBuffer[Int]) : ArrayBuffer[Int] = {
- var result = currentFrequency
-
-
-
-  for(frequency <- frequencies) {
-    if (frequencies contains frequency) {
-      foundDuplicate = true
-      duplicate = frequency
-      return foundFrequencies
+    for ( x <- foundFrequencies ) {
+      println( x )
     }
-    foundFrequencies += frequency
+
+    duplicate
   }
 
-  currentFrequency =
-  foundFrequencies
+  def readFrequencyFile: ArrayBuffer[Int] = {
+    import scala.io.Source
+    val frequencies = ArrayBuffer[Int]()
+    println("opening file")
+    val filename = "C:\\TempWork\\Advent\\Advent1.txt"
+    for (line <- Source.fromFile(filename).getLines) {
+      if (line != null && !line.isEmpty()) frequencies += (line.replace("+", "")).toInt
+    }
+
+    frequencies
+  }
+
+  def checkDups(frequencies: ArrayBuffer[Int]): Boolean = {
+    var result = currentFrequency
+
+
+    for (frequencyAdjustment <- frequencies) {
+      currentFrequency += frequencyAdjustment
+      if (foundFrequencies contains currentFrequency) {
+        foundDuplicate = true
+        duplicate = currentFrequency
+        return true
+      }
+      foundFrequencies += currentFrequency
+    }
+
+    false
+
   }
 
 
