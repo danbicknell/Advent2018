@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="621f44ed-0749-41b2-a049-ea7a7e978402" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/bicknell/dan/advent/Four.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/bicknell/dan/advent/Three.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/bicknell/dan/advent/Advent2018.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/bicknell/dan/advent/Advent2018.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/bicknell/dan/advent/Two.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/bicknell/dan/advent/Two.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/bicknell/dan/advent/Advent2018$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/bicknell/dan/advent/Two.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/bicknell/dan/advent/Two.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/bicknell/dan/advent/Four.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/bicknell/dan/advent/Four.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/project/project/target/" />
     <ignored path="$PROJECT_DIR$/project/target/" />
@@ -28,7 +22,7 @@
     <session id="608608398">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.61" value="1" />
           <entry key="project.open.time.7" value="1" />
@@ -47,32 +41,35 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="scala" value="3437" />
+          <entry key="scala" value="3828" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Scala" value="3437" />
+          <entry key="Scala" value="3828" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/bicknell/dan/advent/Advent2018.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+            <state relative-caret-position="506">
+              <caret line="31" column="23" lean-forward="true" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/bicknell/dan/advent/Four.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+            <state relative-caret-position="345">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="e#29#60#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -80,8 +77,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/bicknell/dan/advent/One.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1403">
-              <caret line="61" column="46" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="46" />
+            <state relative-caret-position="41">
+              <caret line="47" column="40" lean-forward="true" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -89,8 +86,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/bicknell/dan/advent/Two.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="50" column="4" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="38" />
+            <state relative-caret-position="621">
+              <caret line="51" column="27" lean-forward="true" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
               <folding>
                 <element signature="e#29#75#0" expanded="true" />
               </folding>
@@ -101,8 +98,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/bicknell/dan/advent/Three.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+            <state relative-caret-position="184">
+              <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="55" />
               <folding>
                 <element signature="e#29#60#0" expanded="true" />
               </folding>
@@ -122,6 +119,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/bicknell/dan/advent/Two.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/bicknell/dan/advent/Three.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/bicknell/dan/advent/Advent2018.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/bicknell/dan/advent/Four.scala" />
       </list>
     </option>
   </component>
@@ -178,7 +176,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544725341184" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544736954439" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
@@ -318,7 +316,7 @@
     <frame x="2310" y="-1092" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2585288" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2585288" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -328,7 +326,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.1486784" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.17841409" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -338,7 +336,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.19823788" />
+      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.19823788" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -354,17 +352,17 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/bicknell/dan/advent/One.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/bicknell/dan/advent/Advent2018.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1403">
-          <caret line="61" column="46" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="46" />
+        <state relative-caret-position="506">
+          <caret line="31" column="23" lean-forward="true" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/bicknell/dan/advent/Two.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="50" column="4" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="38" />
+        <state relative-caret-position="621">
+          <caret line="51" column="27" lean-forward="true" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
           <folding>
             <element signature="e#29#75#0" expanded="true" />
           </folding>
@@ -373,25 +371,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/bicknell/dan/advent/Three.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+        <state relative-caret-position="184">
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="55" />
           <folding>
             <element signature="e#29#60#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/bicknell/dan/advent/Four.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/bicknell/dan/advent/One.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        <state relative-caret-position="41">
+          <caret line="47" column="40" lean-forward="true" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/bicknell/dan/advent/Advent2018.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/bicknell/dan/advent/Four.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        <state relative-caret-position="345">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#29#60#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
