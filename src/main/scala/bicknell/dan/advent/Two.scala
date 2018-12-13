@@ -80,7 +80,9 @@ class Two {
   def computeStringCharacterMatches(str1: String, str2: String): Int = {
     if (str1.length != str2.length)
       throw new IllegalArgumentException("Strings have different length")
-    (0 to str1.length - 1).filter(i => str1(i) == str2(i)).size
+
+    println(" String 1: " + str1 + " String2: " + str2 + " equals: " + (0 to str1.length - 1).filter(i => str1(i) != str2(i)).size )
+    (0 to str1.length - 1).filter(i => str1(i) != str2(i)).size
   }
 
 }
